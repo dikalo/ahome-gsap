@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='anim4j'>
+ <inherits name='com.ait.toolkit.anim4j.core.Core'/>
+ <inherits name='com.ait.toolkit.anim4j.plugins.css.CSSPlugin'/>
+ <script  src="TweenLite.min.js" />
+</module>
