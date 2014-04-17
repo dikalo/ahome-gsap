@@ -1,4 +1,4 @@
-package com.ait.toolkit.anim4j.core.client;
+package com.ait.toolkit.gsap.core.client;
 
 import java.util.Arrays;
 import java.util.List;

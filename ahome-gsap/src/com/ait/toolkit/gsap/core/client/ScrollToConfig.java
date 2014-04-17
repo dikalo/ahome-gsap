@@ -1,4 +1,4 @@
-package com.ait.toolkit.anim4j.core.client;
+package com.ait.toolkit.gsap.core.client;
 
 import com.ait.toolkit.core.client.JsObject;
 import com.ait.toolkit.core.client.JsoHelper;

@@ -1,6 +1,6 @@
-package com.ait.toolkit.anim4j.timelinemax.client;
+package com.ait.toolkit.gsap.timelinemax.client;
 
-import com.ait.toolkit.anim4j.core.client.SimpleTimeLine;
+import com.ait.toolkit.gsap.core.client.SimpleTimeLine;
 import com.google.gwt.core.client.JavaScriptObject;
 
 public class TimelineMax extends SimpleTimeLine {

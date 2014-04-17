@@ -1,8 +1,8 @@
-package com.ait.toolkit.anim4j.tweenmax.client;
+package com.ait.toolkit.gsap.tweenmax.client;
 
-import com.ait.toolkit.anim4j.core.client.Animation;
 import com.ait.toolkit.core.client.Function;
-import com.ait.toolkit.anim4j.core.client.TweenMaxConfig;
+import com.ait.toolkit.gsap.core.client.Animation;
+import com.ait.toolkit.gsap.core.client.TweenMaxConfig;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;
 import com.google.gwt.dom.client.Element;
@@ -73,14 +73,14 @@ public class TweenMax extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public native TweenMax to(JavaScriptObject target, double duration, TweenMaxConfig config)/*-{
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -101,7 +101,7 @@ public class TweenMax extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
 		;
     }-*/;
 
@@ -125,7 +125,7 @@ public class TweenMax extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -144,7 +144,7 @@ public class TweenMax extends Animation {
 		var obj = peer.to(delay, function() {
 			callback.@com.ait.toolkit.core.client.Function::execute()();
 		});
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -156,7 +156,7 @@ public class TweenMax extends Animation {
 		var obj = peer.to(delay, function() {
 			callback.@com.ait.toolkit.core.client.Function::execute()();
 		}, null, null, useFrames);
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -181,7 +181,7 @@ public class TweenMax extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -195,7 +195,7 @@ public class TweenMax extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
 		;
     }-*/;
 
@@ -219,7 +219,7 @@ public class TweenMax extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -232,7 +232,7 @@ public class TweenMax extends Animation {
 		var obj = peer.fromTo(target, duration,
 				fromConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()(),
 				toConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -245,7 +245,7 @@ public class TweenMax extends Animation {
 		var obj = peer.fromTo(target, duration,
 				fromConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()(),
 				toConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -264,7 +264,7 @@ public class TweenMax extends Animation {
 		var obj = peer.fromTo(target, duration,
 				fromConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()(),
 				toConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TweenMax fromTo(TweenMaxConfig fromConfig, TweenMaxConfig endConfig, double duration, Widget... targets) {

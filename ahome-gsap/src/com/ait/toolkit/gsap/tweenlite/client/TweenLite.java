@@ -1,8 +1,8 @@
-package com.ait.toolkit.anim4j.tweenlite.client;
+package com.ait.toolkit.gsap.tweenlite.client;
 
-import com.ait.toolkit.anim4j.core.client.Animation;
 import com.ait.toolkit.core.client.Function;
-import com.ait.toolkit.anim4j.core.client.TweenLiteConfig;
+import com.ait.toolkit.gsap.core.client.Animation;
+import com.ait.toolkit.gsap.core.client.TweenLiteConfig;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;
 import com.google.gwt.dom.client.Element;
@@ -70,7 +70,7 @@ public class TweenLite extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TweenLite to(TweenLiteConfig config, double duration, Widget... targets) {
@@ -93,7 +93,7 @@ public class TweenLite extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -114,7 +114,7 @@ public class TweenLite extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -126,7 +126,7 @@ public class TweenLite extends Animation {
 		var obj = peer.to(delay, function() {
 			callback.@com.ait.toolkit.core.client.Function::execute()();
 		});
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -138,7 +138,7 @@ public class TweenLite extends Animation {
 		var obj = peer.to(delay, function() {
 			callback.@com.ait.toolkit.core.client.Function::execute()();
 		}, null, null, useFrames);
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -170,7 +170,7 @@ public class TweenLite extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TweenLite from(TweenLiteConfig config, double duration, Widget... targets) {
@@ -193,7 +193,7 @@ public class TweenLite extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -207,7 +207,7 @@ public class TweenLite extends Animation {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -220,7 +220,7 @@ public class TweenLite extends Animation {
 		var obj = peer.fromTo(target, duration,
 				fromConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()(),
 				toConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -233,7 +233,7 @@ public class TweenLite extends Animation {
 		var obj = peer.fromTo(target, duration,
 				fromConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()(),
 				toConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -252,7 +252,7 @@ public class TweenLite extends Animation {
 		var obj = peer.fromTo(target, duration,
 				fromConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()(),
 				toConfig.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TweenLite fromTo(TweenLiteConfig fromConfig, TweenLiteConfig endConfig, double duration, Widget... targets) {
