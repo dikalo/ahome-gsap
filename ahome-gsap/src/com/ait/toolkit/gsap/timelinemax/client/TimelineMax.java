@@ -17,21 +17,43 @@ package com.ait.toolkit.gsap.timelinemax.client;
 
 import com.ait.toolkit.gsap.core.client.SimpleTimeLine;
 import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.core.client.ScriptInjector;
+import com.google.gwt.core.shared.GWT;
 
 public class TimelineMax extends SimpleTimeLine {
 
-    public TimelineMax() {
-        jsObj = createNativePeer();
-    }
+	private static final TimeLineMaxResources resources = GWT.create(TimeLineMaxResources.class);
 
-    private native JavaScriptObject createNativePeer()/*-{
+	static {
+		if (!isLoaded()) {
+			load();
+		}
+	}
+
+	public TimelineMax() {
+		jsObj = createNativePeer();
+	}
+
+	private native JavaScriptObject createNativePeer()/*-{
 		return new $wnd.TimelineMax();
-    }-*/;
+	}-*/;
 
-    public native <T extends SimpleTimeLine> T reverseTimeLine()/*-{
+	public native <T extends SimpleTimeLine> T reverseTimeLine()/*-{
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		peer.reverse();
 		return this
-    }-*/;
+	}-*/;
+
+	private static void load() {
+		ScriptInjector.fromString(resources.js().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
+	}
+
+	private static native boolean isLoaded()/*-{
+		if (typeof $wnd.TimelineMax === "undefined"
+				|| $wnd.TimelineMax === null) {
+			return false;
+		}
+		return true;
+	}-*/;
 
 }
