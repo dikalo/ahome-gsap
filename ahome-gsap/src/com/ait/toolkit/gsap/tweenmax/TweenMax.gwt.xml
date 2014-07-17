@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module>
  <inherits name='com.ait.toolkit.gsap.core.Core'/>
- <script  src="TweenMax.min.js" />
 </module>
