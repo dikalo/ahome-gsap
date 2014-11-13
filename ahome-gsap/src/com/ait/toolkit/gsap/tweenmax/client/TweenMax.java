@@ -325,7 +325,7 @@ public class TweenMax extends Animation {
 		return $wnd.TweenMax;
 	}-*/;
 
-	private static void load() {
+	public static void load() {
 		ScriptInjector.fromString(resources.js().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
 	}
 

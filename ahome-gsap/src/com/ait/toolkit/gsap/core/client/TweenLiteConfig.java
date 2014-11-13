@@ -31,8 +31,7 @@ public class TweenLiteConfig extends JsObject {
 	}
 
 	/**
-	 * Amount of delay in seconds (or frames for frames-based tweens) before the
-	 * tween should begin.
+	 * Amount of delay in seconds (or frames for frames-based tweens) before the tween should begin.
 	 * 
 	 * @param value
 	 */
@@ -41,16 +40,11 @@ public class TweenLiteConfig extends JsObject {
 	}
 
 	/**
-	 * You can choose from various eases to control the rate of change during
-	 * the animation, giving it a specific "feel". For example, Elastic.easeOut
-	 * or Strong.easeInOut. For best performance, use one of the GreenSock eases
-	 * (Linear, Power0, Power1, Power2, Power3, Power4, Quad, Cubic, Quart,
-	 * Quint, and Strong, each with their .easeIn, .easeOut, and .easeInOut
-	 * variants are included in the TweenLite, and you can load EasePack to get
-	 * extras like Elastic, Back, Bounce, SlowMo, SteppedEase, Circ, Expo, and
-	 * Sine). For linear animation, use the GreenSock Linear.easeNone ease. You
-	 * can also define an ease by name (string) like "Strong.easeOut" or reverse
-	 * style (like jQuery uses) "easeOutStrong". The default is Quad.easeOut.
+	 * You can choose from various eases to control the rate of change during the animation, giving it a specific "feel". For example, Elastic.easeOut or Strong.easeInOut. For best
+	 * performance, use one of the GreenSock eases (Linear, Power0, Power1, Power2, Power3, Power4, Quad, Cubic, Quart, Quint, and Strong, each with their .easeIn, .easeOut, and
+	 * .easeInOut variants are included in the TweenLite, and you can load EasePack to get extras like Elastic, Back, Bounce, SlowMo, SteppedEase, Circ, Expo, and Sine). For linear
+	 * animation, use the GreenSock Linear.easeNone ease. You can also define an ease by name (string) like "Strong.easeOut" or reverse style (like jQuery uses) "easeOutStrong".
+	 * The default is Quad.easeOut.
 	 * 
 	 * @param value
 	 */
@@ -59,16 +53,11 @@ public class TweenLiteConfig extends JsObject {
 	}
 
 	/**
-	 * You can choose from various eases to control the rate of change during
-	 * the animation, giving it a specific "feel". For example, Elastic.easeOut
-	 * or Strong.easeInOut. For best performance, use one of the GreenSock eases
-	 * (Linear, Power0, Power1, Power2, Power3, Power4, Quad, Cubic, Quart,
-	 * Quint, and Strong, each with their .easeIn, .easeOut, and .easeInOut
-	 * variants are included in the TweenLite, and you can load EasePack to get
-	 * extras like Elastic, Back, Bounce, SlowMo, SteppedEase, Circ, Expo, and
-	 * Sine). For linear animation, use the GreenSock Linear.easeNone ease. You
-	 * can also define an ease by name (string) like "Strong.easeOut" or reverse
-	 * style (like jQuery uses) "easeOutStrong". The default is Quad.easeOut.
+	 * You can choose from various eases to control the rate of change during the animation, giving it a specific "feel". For example, Elastic.easeOut or Strong.easeInOut. For best
+	 * performance, use one of the GreenSock eases (Linear, Power0, Power1, Power2, Power3, Power4, Quad, Cubic, Quart, Quint, and Strong, each with their .easeIn, .easeOut, and
+	 * .easeInOut variants are included in the TweenLite, and you can load EasePack to get extras like Elastic, Back, Bounce, SlowMo, SteppedEase, Circ, Expo, and Sine). For linear
+	 * animation, use the GreenSock Linear.easeNone ease. You can also define an ease by name (string) like "Strong.easeOut" or reverse style (like jQuery uses) "easeOutStrong".
+	 * The default is Quad.easeOut.
 	 * 
 	 * @param value
 	 */
@@ -94,10 +83,8 @@ public class TweenLiteConfig extends JsObject {
 	}
 
 	/**
-	 * If useFrames is true, the tweens's timing will be based on frames instead
-	 * of seconds because it is intially added to the root frames-based
-	 * timeline. This causes both its duration and delay to be based on frames.
-	 * An animations's timing mode is always determined by its parent timeline.
+	 * If useFrames is true, the tweens's timing will be based on frames instead of seconds because it is intially added to the root frames-based timeline. This causes both its
+	 * duration and delay to be based on frames. An animations's timing mode is always determined by its parent timeline.
 	 * 
 	 * @param value
 	 */
@@ -106,11 +93,8 @@ public class TweenLiteConfig extends JsObject {
 	}
 
 	/**
-	 * Normally when you create a tween, it begins rendering on the very next
-	 * frame (update cycle) unless you specify a delay. However, if you prefer
-	 * to force the tween to render immediately when it is created, set
-	 * immediateRender to true. Or to prevent a from() from rendering
-	 * immediately, set immediateRender to false. By default, from() tweens set
+	 * Normally when you create a tween, it begins rendering on the very next frame (update cycle) unless you specify a delay. However, if you prefer to force the tween to render
+	 * immediately when it is created, set immediateRender to true. Or to prevent a from() from rendering immediately, set immediateRender to false. By default, from() tweens set
 	 * immediateRender to true.
 	 */
 	public void setImmediateRenderer(boolean value) {
@@ -118,33 +102,27 @@ public class TweenLiteConfig extends JsObject {
 	}
 
 	/**
-	 * A function that should be called when the tween begins (when its time
-	 * changes from 0 to some other value which can happen more than once if the
-	 * tween is restarted multiple times).
+	 * A function that should be called when the tween begins (when its time changes from 0 to some other value which can happen more than once if the tween is restarted multiple
+	 * times).
 	 */
 	public void setOnStart(Function callback) {
 		JsoHelper.setAttribute(jsObj, "onStart", fromFunction(callback));
 	}
 
 	/**
-	 * A function that should be called every time the tween updates (on every
-	 * frame while the tween is active)
+	 * A function that should be called every time the tween updates (on every frame while the tween is active)
 	 */
 	public void setOnUpdate(Function callback) {
 		JsoHelper.setAttribute(jsObj, "onUpdate", fromFunction(callback));
 	}
 
 	/**
-	 * A function that should be called when the tween has reached its beginning
-	 * again from the reverse direction. For example, if reverse() is called the
-	 * tween will move back towards its beginning and when its time reaches 0,
-	 * onReverseComplete will be called. This can also happen if the tween is
-	 * placed in a TimelineLite or TimelineMax instance that gets reversed and
-	 * plays the tween backwards to (or past) the beginning.
+	 * A function that should be called when the tween has reached its beginning again from the reverse direction. For example, if reverse() is called the tween will move back
+	 * towards its beginning and when its time reaches 0, onReverseComplete will be called. This can also happen if the tween is placed in a TimelineLite or TimelineMax instance
+	 * that gets reversed and plays the tween backwards to (or past) the beginning.
 	 */
 	public void setOnReverseComplete(Function callback) {
-		JsoHelper.setAttribute(jsObj, "onReverseComplete",
-				fromFunction(callback));
+		JsoHelper.setAttribute(jsObj, "onReverseComplete", fromFunction(callback));
 	}
 
 	/**
@@ -155,20 +133,16 @@ public class TweenLiteConfig extends JsObject {
 	}
 
 	/**
-	 * Controls how (and if) other tweens of the same target are overwritten.
-	 * There are several modes to choose from, but "auto" is the default
-	 * (although you can change the default mode using the
-	 * TweenLite.defaultOverwrite property)
+	 * Controls how (and if) other tweens of the same target are overwritten. There are several modes to choose from, but "auto" is the default (although you can change the default
+	 * mode using the TweenLite.defaultOverwrite property)
 	 */
 	public void setOverwrite(String value) {
 		JsoHelper.setAttribute(jsObj, "overwrite", value);
 	}
 
 	/**
-	 * Controls how (and if) other tweens of the same target are overwritten.
-	 * There are several modes to choose from, but "auto" is the default
-	 * (although you can change the default mode using the
-	 * TweenLite.defaultOverwrite property)
+	 * Controls how (and if) other tweens of the same target are overwritten. There are several modes to choose from, but "auto" is the default (although you can change the default
+	 * mode using the TweenLite.defaultOverwrite property)
 	 */
 	public void setOverwrite(int value) {
 		JsoHelper.setAttribute(jsObj, "overwrite", value);
@@ -737,6 +711,14 @@ public class TweenLiteConfig extends JsObject {
 
 	public void setSkewY(String value) {
 		setProperty("skewY", value);
+	}
+
+	public void setRight(double value) {
+		setProperty("right", value);
+	}
+
+	public void setRight(String value) {
+		setProperty("right", value);
 	}
 
 	public void setSkew(String skewX, String skewY) {
