@@ -315,7 +315,7 @@ public class TweenLite extends Animation {
 		return $wnd.TweenLite;
 	}-*/;
 
-	public static void load() {
+	private static void load() {
 		ScriptInjector.fromString(resources.js().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
 	}
 
