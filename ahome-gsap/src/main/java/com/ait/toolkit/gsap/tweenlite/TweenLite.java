@@ -13,11 +13,11 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.ait.toolkit.gsap.tweenlite.client;
+package com.ait.toolkit.gsap.tweenlite;
 
 import com.ait.toolkit.core.client.Function;
-import com.ait.toolkit.gsap.core.client.Animation;
-import com.ait.toolkit.gsap.core.client.TweenLiteConfig;
+import com.ait.toolkit.gsap.core.Animation;
+import com.ait.toolkit.gsap.core.TweenLiteConfig;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;

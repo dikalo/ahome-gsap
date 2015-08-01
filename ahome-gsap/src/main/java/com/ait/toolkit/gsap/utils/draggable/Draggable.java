@@ -13,7 +13,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.ait.toolkit.gsap.utils.draggable.client;
+package com.ait.toolkit.gsap.utils.draggable;
 
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.user.client.ui.Widget;

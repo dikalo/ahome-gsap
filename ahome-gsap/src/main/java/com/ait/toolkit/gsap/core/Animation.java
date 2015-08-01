@@ -13,7 +13,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.ait.toolkit.gsap.core.client;
+package com.ait.toolkit.gsap.core;
 
 import com.ait.toolkit.core.client.JsObject;
 import com.google.gwt.core.client.JavaScriptObject;

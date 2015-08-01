@@ -1,4 +1,4 @@
-package com.ait.toolkit.gsap.tweenlite.client;
+package com.ait.toolkit.gsap.tweenlite;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.TextResource;

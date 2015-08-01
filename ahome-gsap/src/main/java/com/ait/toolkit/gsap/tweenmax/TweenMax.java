@@ -13,11 +13,11 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.ait.toolkit.gsap.tweenmax.client;
+package com.ait.toolkit.gsap.tweenmax;
 
 import com.ait.toolkit.core.client.Function;
-import com.ait.toolkit.gsap.core.client.Animation;
-import com.ait.toolkit.gsap.core.client.TweenMaxConfig;
+import com.ait.toolkit.gsap.core.Animation;
+import com.ait.toolkit.gsap.core.TweenMaxConfig;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;

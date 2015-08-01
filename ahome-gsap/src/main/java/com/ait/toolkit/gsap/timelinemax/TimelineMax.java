@@ -13,9 +13,9 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
-package com.ait.toolkit.gsap.timelinemax.client;
+package com.ait.toolkit.gsap.timelinemax;
 
-import com.ait.toolkit.gsap.core.client.SimpleTimeLine;
+import com.ait.toolkit.gsap.core.SimpleTimeLine;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.ScriptInjector;
 import com.google.gwt.core.shared.GWT;

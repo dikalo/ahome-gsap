@@ -1,4 +1,4 @@
-package com.ait.toolkit.gsap.timelinemax.client;
+package com.ait.toolkit.gsap.timelinemax;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.TextResource;
