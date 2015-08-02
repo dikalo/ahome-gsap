@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ait.toolkit.gsap.timelinemax;
+package com.ait.toolkit.gsap.client.timelinemax;
 
 import com.ait.toolkit.core.client.JsoHelper;
-import com.ait.toolkit.gsap.timelinelite.TimelineLiteConfig;
+import com.ait.toolkit.gsap.client.timelinelite.TimelineLiteConfig;
 
 public class TimelineMaxConfig extends TimelineLiteConfig {
 

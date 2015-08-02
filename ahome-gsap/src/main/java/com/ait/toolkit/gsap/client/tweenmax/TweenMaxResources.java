@@ -1,4 +1,4 @@
-package com.ait.toolkit.gsap.tweenmax;
+package com.ait.toolkit.gsap.client.tweenmax;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.TextResource;

@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ait.toolkit.gsap.timelinelite;
+package com.ait.toolkit.gsap.client.timelinelite;
 
 import com.ait.toolkit.core.client.Function;
 import com.ait.toolkit.core.client.JsObject;
 import com.ait.toolkit.core.client.JsoHelper;
-import com.ait.toolkit.gsap.core.Align;
-import com.ait.toolkit.gsap.core.Animation;
+import com.ait.toolkit.gsap.client.core.Align;
+import com.ait.toolkit.gsap.client.core.Animation;
 import com.google.gwt.core.client.JavaScriptObject;
 
 public class TimelineLiteConfig extends JsObject {

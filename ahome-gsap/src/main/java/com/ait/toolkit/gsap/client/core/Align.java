@@ -1,4 +1,4 @@
-package com.ait.toolkit.gsap.core;
+package com.ait.toolkit.gsap.client.core;
 
 public enum Align {
 

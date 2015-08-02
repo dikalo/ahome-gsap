@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ait.toolkit.gsap.timelinelite;
+package com.ait.toolkit.gsap.client.timelinelite;
 
-import com.ait.toolkit.gsap.core.SimpleTimeLine;
+import com.ait.toolkit.gsap.client.core.SimpleTimeLine;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;
 import com.google.gwt.core.client.ScriptInjector;
@@ -108,7 +108,7 @@ public class TimelineLite extends SimpleTimeLine {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.gsap.timelinelite.TimelineLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.client.timelinelite.TimelineLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TimelineLite to( TimelineLiteConfig config, double duration, Widget... targets ) {
@@ -131,7 +131,7 @@ public class TimelineLite extends SimpleTimeLine {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.gsap.timelinelite.TimelineLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.client.timelinelite.TimelineLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -149,7 +149,7 @@ public class TimelineLite extends SimpleTimeLine {
 		var peer = this.@com.ait.toolkit.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
 				config.@com.ait.toolkit.core.client.JsObject::getJsObj()());
-		return @com.ait.toolkit.gsap.timelinelite.TimelineLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.toolkit.gsap.client.timelinelite.TimelineLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     private static void load() {

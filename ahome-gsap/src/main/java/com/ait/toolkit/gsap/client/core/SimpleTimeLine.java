@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.ait.toolkit.gsap.core;
+package com.ait.toolkit.gsap.client.core;
 
 import java.util.Arrays;
 import java.util.List;
