@@ -20,7 +20,7 @@ apply plugin: 'maven'
 sourceCompatibility = 1.7
 
 archivesBaseName = 'gsap4j'
-version = '1.0.0-SNAPSHOT'
+version = '3.0.0-SNAPSHOT'
 group = 'com.ahome-it'
 compileJava.options.encoding = 'UTF-8'
 
@@ -45,7 +45,7 @@ sourceSets {
 }
 
 dependencies {
-    compile(group: 'com.ahome-it', name: 'ahome-core', version: '1.0.0-SNAPSHOT')
+    compile(group: 'com.ahome-it', name: 'ahome-core', version: '1.0.1-SNAPSHOT')
 }
 
 uploadArchives {
